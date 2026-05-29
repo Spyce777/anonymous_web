@@ -1,0 +1,143 @@
+<!-- =====================================================
+       SECTION 2: MAIN BODY
+       ASSIGNED TO: [Body Person — put your name here]
+       RESTAURANT: Accra Palm Kitchen
+       NOTE: Styles match the group's shared CSS (footer person's file)
+  ===================================================== -->
+
+  <style>
+    /* =====================================================
+       BODY SECTION STYLES — Accra Palm Kitchen
+       Matches group color scheme:
+         Deep Navy  — #001F3F
+         Gold       — #D4AF37
+         Light Gray — #F0F0F0
+    ===================================================== */
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #F0F0F0;
+      color: #001F3F;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .featured {
+      background: white;
+    }
+
+    .about {
+      background: #D4AF37;
+      color: #001F3F;
+    }
+
+    h2 {
+      color: #001F3F;
+      text-align: center;
+    }
+
+    .featured h3 {
+      color: #001F3F;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      border: 3px solid #D4AF37;
+    }
+
+    .dish-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 30px auto;
+      background: white;
+    }
+
+    th, td {
+      padding: 14px;
+      border: 2px solid #001F3F;
+      text-align: center;
+    }
+
+    th {
+      background: #001F3F;
+      color: white;
+    }
+  </style>
+
+  <!-- FEATURED DISHES -->
+  <section id="menu" class="featured">
+    <h2>Featured Dishes</h2>
+
+    <div class="dish-grid">
+
+      <!-- Dish 1 -->
+      <div>
+        <img src="paste-image-url-here.jpg" alt="Description of dish 1" />
+        <h3>Dish Name 1</h3>
+        <p>Write a short, tasty description of this dish here.</p>
+      </div>
+
+      <!-- Dish 2 -->
+      <div>
+        <img src="paste-image-url-here.jpg" alt="Description of dish 2" />
+        <h3>Dish Name 2</h3>
+        <p>Write a short, tasty description of this dish here.</p>
+      </div>
+
+      <!-- Dish 3 -->
+      <div>
+        <img src="paste-image-url-here.jpg" alt="Description of dish 3" />
+        <h3>Dish Name 3</h3>
+        <p>Write a short, tasty description of this dish here.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT US -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Write 2–3 sentences about the restaurant here. Where did it start?
+      What makes it special? What kind of food does it serve?
+    </p>
+  </section>
+
+  <!-- OPENING HOURS -->
+  <section>
+    <h2>Opening Hours</h2>
+    <table>
+      <tr>
+        <th>Day</th>
+        <th>Hours</th>
+      </tr>
+      <tr>
+        <td>Monday - Friday</td>
+        <td>00:00 AM – 00:00 PM</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>00:00 AM – 00:00 PM</td>
+      </tr>
+      <tr>
+        <td>Sunday</td>
+        <td>00:00 PM – 00:00 PM</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- END OF SECTION 2 -->
