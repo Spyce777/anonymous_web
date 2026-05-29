@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le restaurant de l'Anonyme | Taste the Heart of Ghana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #F0F0F0;
+            color: #001F3F;
+        }
+
+        header {
+            background: #001F3F;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.8em;
+        }
+
+        .tagline {
+            font-style: italic;
+            margin-top: 8px;
+            color: #D4AF37;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 18px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #D4AF37;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .featured {
+            background: white;
+        }
+
+        .about {
+            background: #D4AF37;
+            color: #001F3F;
+        }
+
+        h2 {
+            color: #001F3F;
+            text-align: center;
+        }
+
+        .featured h3 {
+            color: #001F3F;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            border: 3px solid #D4AF37;
+        }
+
+        .dish-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 30px auto;
+            background: white;
+        }
+
+        th, td {
+            padding: 14px;
+            border: 2px solid #001F3F;
+            text-align: center;
+        }
+
+        th {
+            background: #001F3F;
+            color: white;
+        }
+
+        footer {
+            background: #001F3F;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        footer a {
+            color: #D4AF37;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- =====================================================
+         SECTION 1: HEADER
+         ASSIGNED TO: [Header Person]
+    ===================================================== -->
+    <header>
+        <h1>🌴 Accra Palm Kitchen</h1>
+        <p class="tagline">Taste the Heart of Ghana</p>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- =====================================================
+         SECTION 2: MAIN BODY
+         ASSIGNED TO: [Body Person]
+    ===================================================== -->
+
+    <!-- FEATURED DISHES -->
+    <section id="menu" class="featured">
+        <h2>Featured Dishes</h2>
+        <div class="dish-grid">
+
+            <!-- Dish 1 -->
+            <div>
+                <img src="paste-image-url-here.jpg" alt="Description of dish 1" />
+                <h3>Dish Name 1</h3>
+                <p>Write a short, tasty description of this dish here.</p>
+            </div>
+
+            <!-- Dish 2 -->
+            <div>
+                <img src="paste-image-url-here.jpg" alt="Description of dish 2" />
+                <h3>Dish Name 2</h3>
+                <p>Write a short, tasty description of this dish here.</p>
+            </div>
+
+            <!-- Dish 3 -->
+            <div>
+                <img src="paste-image-url-here.jpg" alt="Description of dish 3" />
+                <h3>Dish Name 3</h3>
+                <p>Write a short, tasty description of this dish here.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>
+            Write 2–3 sentences about the restaurant here. Where did it start?
+            What makes it special? What kind of food does it serve?
+        </p>
+    </section>
+
+    <!-- OPENING HOURS -->
+    <section>
+        <h2>Opening Hours</h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Hours</th>
+            </tr>
+            <tr>
+                <td>Monday - Friday</td>
+                <td>00:00 AM – 00:00 PM</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>00:00 AM – 00:00 PM</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>00:00 PM – 00:00 PM</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- =====================================================
+         SECTION 3: FOOTER
+         ASSIGNED TO: [Footer Person]
+    ===================================================== -->
+    <footer id="contact">
+        <p><strong>📍 Location:</strong> Osu Oxford Street, Accra, Ghana</p>
+        <p><strong>📞 Phone:</strong> <a href="tel:+233501234567">+233 50 123 4567</a></p>
+        <p>
+            <strong>Follow Us:</strong><br><br>
+            <a href="#">Facebook</a> &nbsp;&nbsp;&nbsp;
+            <a href="#">Instagram</a> &nbsp;&nbsp;&nbsp;
+            <a href="#">Twitter</a>
+        </p>
+        <p>&copy; 2026 Le restaurant de l'Anonyme. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
